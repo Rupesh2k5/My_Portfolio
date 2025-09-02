@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Basic portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header id="header">
+        <h1><strong>My portfolio</strong></h1><br>
+        <a href="#About">
+            <button class="button">About</button>
+        </a>
+        <a href="#interest">
+            <button class="button">My Interests</button>
+        </a>
+        <a href="#Skills">
+            <button class="button">Skills</button>
+        </a>
+        <a href="#Contact">
+            <button class="button">Contact Me</button>
+        </a>
+    </header>
+    <br>
+    <main>
+        <section id="About">
+            <h1>M.Rupesh Chandra Bharadwaj</h1>
+            <img src="My.png">
+            <p>I am an Aspiring Full Stack Developer with having Knowldege on HTML CSS.
+                Currently Working on JavaScript and React.
+            </p>
+            <p>I am an Btech Cse Student at Vellore Institute of Technology - Andhra Pradesh </p>
+            <p>I learnt Web Development basics from different Online Courses</p>
+        </section>
+        <section id="interest">
+            <h2>I am Intrested in:</h2>
+            <ul>
+                <li>Full Stack Developemnt</li>
+                <li>Frontend Development</li>
+                <li>Backend Developoment</li>
+            </ul>
+        </section>
+        <section id="Skills">
+            <h1>My Skills:</h1>
+            <ol>
+                <li>Python Basics</li>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ol>
+        </section>
+        <section id="Contact">
+            <form>
+                <h1>Contact Me:</h1>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+
+                <div class="form-group gender">
+                    <label>Gender:</label>
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                </div>
+
+                <div class="form-group">
+                    Bio:
+                    <textarea id="bio" name="bio" placeholder="Write something here!!!"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="last">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <a href="#header">
+        <button id="top">Go to Top</button>
+    </a>
+    <footer>
+        <p>&copy; 2023 My Portfolio</p>
+    </footer>
+
+</body>
+</html>
